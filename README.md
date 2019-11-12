@@ -21,4 +21,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* Redis path
+
+	redis-2.8.18/src/
+
+* Start Redis
+   
+    ./redis-server 
+
 * ...
