@@ -61,6 +61,7 @@ class BooksController < ApplicationController
     end
   end
 
+  # /books/searcBook?authore="test"
   def searchBook
     if (params.has_key?(:author))
       key= "author"
